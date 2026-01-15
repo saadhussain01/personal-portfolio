@@ -31,6 +31,7 @@
 //
 import "./globals.css";
 import { Outfit, Ovo } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -50,7 +51,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="dark:bg-darkTheme dark:text-white">{children}</body>
+      <body className="dark:bg-darkTheme dark:text-white">{children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
