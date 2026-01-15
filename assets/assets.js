@@ -93,14 +93,14 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Movie Recommendation System",
+    title: "Movie Recommendation",
     description: "Trained Deep learning Model",
     bg_Image: "./movie_recommender.JPG",
     url: "#",
     github_url: "https://github.com/saadhussain01/Recommendation-System-using-Deep-learning",
   },
   {
-    title: "Heart Disease Prediction Using Machine Learning",
+    title: "Heart Disease Prediction",
     description: "A Web App",
     bg_Image: "./Heart.png",
     url: "#",

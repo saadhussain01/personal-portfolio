@@ -9,12 +9,12 @@ const About = ({isDarkMode}) => {
       className="w-full px-[12%] py-10 scroll-mt-20"
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
-      transition={{duration: 2}}
+      transition={{duration: 1}}
     >
       <motion.h4
         initial={{opacity: 0, y: -20}}
         whileInView={{opacity: 1, y: 0}}
-        transition={{duration: 0.5, delay: 0.3}}
+        transition={{duration: 0.1, delay: 0.1}}
         className="text-center mb-2 text-lg font-Ovo"
       >
         Introduction
@@ -22,7 +22,7 @@ const About = ({isDarkMode}) => {
       <motion.h2
         initial={{opacity: 0, y: -20}}
         whileInView={{opacity: 1, y: 0}}
-        transition={{duration: 0.5, delay: 0.5}}
+        transition={{duration: 0.1, delay: 0.1}}
         className="text-center text-5xl font-Ovo"
       >
         About me
@@ -65,7 +65,7 @@ const About = ({isDarkMode}) => {
           <motion.h4
             initial={{y: 20, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
-            transition={{delay: 1.3, duration: 0.5}}
+            transition={{duration: 0.1, delay: 0.1}}
             className="my-6 text-gray-700 font-Ovo dark:text-white/80"
           >
             Tools I use
@@ -73,7 +73,7 @@ const About = ({isDarkMode}) => {
           <motion.ul 
           initial={{y: 20, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
-            transition={{delay: 1.3, duration: 0.5}}
+            transition={{duration: 0.1, delay: 0.1}}
           className="flex items-center gap-3 sm:gap-5">
             {toolsData.map((tool, index) => (
               <motion.li
