@@ -35,11 +35,10 @@ const About = ({isDarkMode}) => {
             className="w-full rounded-3xl"
           />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 w-full max-w-full">
+
           <p className="mb-10 max-w-2xl font-Ovo">
-              AI/ML Engineer specializing in building intelligent, scalable systems using Machine Learning, Deep Learning, and Large Language Models.
-              I work on Agentic AI, Recommendation Systems, RAG pipelines, fine-tuning LLMs, and end-to-end ML solutions, turning complex data into real-world impact.
-              Passionate about deploying production-ready AI that solves meaningful problems.
+              AI/ML Engineer specializing in building intelligent, scalable systems using Machine Learning, Deep Learning, and Large Language Models.I work on Agentic AI, Recommendation Systems, RAG pipelines, fine-tuning LLMs, and end-to-end ML solutions, turning complex data into real-world impact.Passionate about deploying production-ready AI that solves meaningful problems.
           </p>
 
           <ul className="grid gid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
