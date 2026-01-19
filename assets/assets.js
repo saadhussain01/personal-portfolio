@@ -93,19 +93,20 @@ export const assets = {
 
 export const workData = [
   {
+    title: "Heart Disease Prediction",
+    description: "A Web App",
+    bg_Image: "/heart.jpg",
+    url: "#",
+    github_url: "https://github.com/saadhussain01/Heart-Disease-Prediction-using-Machine-learning",
+  },
+  {
     title: "Movie Recommendation",
     description: "Trained Deep learning Model",
     bg_Image: "/movie_recommender.jpg",
     url: "#",
     github_url: "https://github.com/saadhussain01/Recommendation-System-using-Deep-learning",
   },
-  {
-    title: "Heart Disease Prediction",
-    description: "A Web App",
-    bg_Image: "/heart.png",
-    url: "#",
-    github_url: "https://github.com/saadhussain01/Heart-Disease-Prediction-using-Machine-learning",
-  },
+  
   {
     title: "RAG System",
     description: "RAG Using Gemini API",
