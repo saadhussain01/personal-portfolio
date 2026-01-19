@@ -95,7 +95,7 @@ export const workData = [
   {
     title: "Movie Recommendation",
     description: "Trained Deep learning Model",
-    bg_Image: "/movie_recommender.JPG",
+    bg_Image: "/movie_recommender.jpg",
     url: "#",
     github_url: "https://github.com/saadhussain01/Recommendation-System-using-Deep-learning",
   },
@@ -109,7 +109,7 @@ export const workData = [
   {
     title: "RAG System",
     description: "RAG Using Gemini API",
-    bg_Image: "/RAG.PNG",
+    bg_Image: "/RAG.png",
     url: "#",
     github_url: "https://github.com/saadhussain01/RAG-Gemini-System",
   },
