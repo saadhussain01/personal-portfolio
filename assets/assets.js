@@ -110,7 +110,7 @@ export const workData = [
   {
     title: "RAG System",
     description: "RAG Using Gemini API",
-    bg_Image: "/RAG.png",
+    bg_Image: "/rag.jpg",
     url: "#",
     github_url: "https://github.com/saadhussain01/RAG-Gemini-System",
   },
