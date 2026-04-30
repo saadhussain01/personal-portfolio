@@ -106,13 +106,54 @@ export const workData = [
     url: "#",
     github_url: "https://github.com/saadhussain01/Recommendation-System-using-Deep-learning",
   },
-  
   {
     title: "RAG System",
     description: "RAG Using Gemini API",
     bg_Image: "/rag.jpg",
     url: "#",
     github_url: "https://github.com/saadhussain01/RAG-Gemini-System",
+  },
+  {
+    title: "Sentiment Analysis",
+    description: "NLP Classification Model",
+    bg_Image: "/sentiment.jpg",
+    url: "#",
+    github_url: "#",
+  },
+  {
+    title: "Image Classification",
+    description: "CNN Deep Learning",
+    bg_Image: "/image-classify.jpg",
+    url: "#",
+    github_url: "#",
+  },
+  {
+    title: "Chatbot Assistant",
+    description: "AI Powered Chatbot",
+    bg_Image: "/chatbot.jpg",
+    url: "#",
+    github_url: "#",
+  },
+  {
+    title: "Object Detection",
+    description: "YOLO Implementation",
+    bg_Image: "/object-detect.jpg",
+    url: "#",
+    github_url: "#",
+  },
+  {
+    title: "Stock Price Predictor",
+    description: "LSTM Time Series Model",
+    bg_Image: "/stock.jpg",
+    url: "#",
+    github_url: "#",
+  },
+  {
+    title: "Face Recognition",
+    description: "Computer Vision Project",
+    bg_Image: "/face-recognition.jpg",
+    url: "#",
+    github_url: "#",
   },
 ];
 
