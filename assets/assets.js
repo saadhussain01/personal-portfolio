@@ -118,7 +118,7 @@ export const workData = [
   {
     title: "Pneumonia Detection",
     description: "Medical Image Analysis",
-    bg_Image: "/pneumonia-detection.jpg",
+    bg_Image: "/pneumoniadetection.jpg",
     url: "#",
     github_url: "https://github.com/saadhussain01/Pneumonia-Detection",
   },
