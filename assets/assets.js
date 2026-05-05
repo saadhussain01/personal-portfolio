@@ -46,6 +46,7 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import pneumoniadetection from "./pneumonia-detection.jpg";
 
 export const assets = {
   code_icon,
@@ -89,6 +90,7 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  pneumoniadetection
 };
 
 export const workData = [
@@ -114,11 +116,11 @@ export const workData = [
     github_url: "https://github.com/saadhussain01/RAG-Gemini-System",
   },
   {
-    title: "Sentiment Analysis",
-    description: "NLP Classification Model",
-    bg_Image: "/sentiment.jpg",
+    title: "Pneumonia Detection",
+    description: "Medical Image Analysis",
+    bg_Image: "/pneumonia-detection.jpg",
     url: "#",
-    github_url: "#",
+    github_url: "https://github.com/saadhussain01/Pneumonia-Detection",
   },
   {
     title: "Image Classification",
