@@ -46,7 +46,6 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
-import pneumoniadetection from "./pneumonia-detection.jpg";
 
 export const assets = {
   code_icon,
@@ -89,8 +88,7 @@ export const assets = {
   right_arrow,
   send_icon,
   right_arrow_bold,
-  right_arrow_bold_dark,
-  pneumoniadetection
+  right_arrow_bold_dark
 };
 
 export const workData = [
@@ -109,18 +107,18 @@ export const workData = [
     github_url: "https://github.com/saadhussain01/Recommendation-System-using-Deep-learning",
   },
   {
+    title: "Pneumonia Detection",
+    description: "Medical Image Analysis",
+    bg_Image: "/pneumoniadetection.jpg",
+    url: "#",
+    github_url: "https://github.com/saadhussain01/Pneumonia-Detection",
+  },
+  {
     title: "RAG System",
     description: "RAG Using Gemini API",
     bg_Image: "/rag.jpg",
     url: "#",
     github_url: "https://github.com/saadhussain01/RAG-Gemini-System",
-  },
-  {
-    title: "Pneumonia Detection",
-    description: "Medical Image Analysis",
-    bg_Image: "./pneumoniadetection.jpg",
-    url: "#",
-    github_url: "https://github.com/saadhussain01/Pneumonia-Detection",
   },
   {
     title: "Image Classification",
