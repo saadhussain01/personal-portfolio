@@ -189,7 +189,7 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Skills",
-    description: "Python,Data Science,AI,Data Analysis,Machine Learning,Pytorch,Tensorflow,Scikit-Learn,Langchain,LangGraph,n8n,SQL,FastAPI,C#"
+    description: "Python,Data Science,AI Engineering,ML/DL,Langchain,LangGraph,n8n,SQL,FastAPI,Docker"
   },
   {
     icon: assets.edu_icon,
